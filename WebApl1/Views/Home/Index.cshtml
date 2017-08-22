@@ -1,0 +1,24 @@
+﻿
+@{
+    Layout = null;
+}
+
+<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>My firrst html code</title>
+</head>
+<body>
+    <div> 
+       @ViewBag.Greeting World (from the view) 
+        <p> we are goin to a exciting party <br/>
+            <img @ViewBag.Image/>
+        (to do: sell it better. Add Pictures or someting.)</p>
+
+        @Html.ActionLink("RSVP Now","RsvpForm") /* RsvpForm   este filul cshtm cu care face legatura action linkul  RSVP Now */
+
+    </div>
+</body>
+</html>
